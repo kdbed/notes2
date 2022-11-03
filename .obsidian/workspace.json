@@ -1,19 +1,19 @@
 {
   "main": {
-    "id": "29952f77a5084a02",
+    "id": "1f19cc158538517e",
     "type": "split",
     "children": [
       {
-        "id": "26bee647df41706e",
+        "id": "9ec4dfc96672322c",
         "type": "tabs",
         "children": [
           {
-            "id": "b65bf2bb47b82122",
+            "id": "ba2155fc6bdcff81",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "test file.md",
+                "file": "note from uh.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,15 +25,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "b4afe7c2ed38fc58",
+    "id": "8c60fc40080b3089",
     "type": "split",
     "children": [
       {
-        "id": "c0b3bf7f1c9eb3bc",
+        "id": "296a3fb1a041739a",
         "type": "tabs",
         "children": [
           {
-            "id": "e17afe298c293d17",
+            "id": "bffbea4421604386",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -43,7 +43,7 @@
             }
           },
           {
-            "id": "8ed1fe3d6a869a41",
+            "id": "de4635f46090eab9",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -58,7 +58,7 @@
             }
           },
           {
-            "id": "55934ead6583d710",
+            "id": "14455131d572e991",
             "type": "leaf",
             "state": {
               "type": "starred",
@@ -72,20 +72,20 @@
     "width": 300
   },
   "right": {
-    "id": "67101812adc17c5c",
+    "id": "e8660ae0ebcedc4e",
     "type": "split",
     "children": [
       {
-        "id": "63ceea12f1087fe0",
+        "id": "8a3852f24d07b3e9",
         "type": "tabs",
         "children": [
           {
-            "id": "55023c3231071014",
+            "id": "d1977a4bb42990bf",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "test file.md",
+                "file": "note from uh.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,19 +97,19 @@
             }
           },
           {
-            "id": "435b6b49e72bf5d1",
+            "id": "ec2327d391a7081f",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "test file.md",
+                "file": "note from uh.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "1ae0ae28cb7b175e",
+            "id": "992226c56088000d",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -120,12 +120,12 @@
             }
           },
           {
-            "id": "f5dcb709296513a9",
+            "id": "a9b8515c0a849318",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "test file.md"
+                "file": "note from uh.md"
               }
             }
           }
@@ -136,6 +136,6 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "b65bf2bb47b82122",
+  "active": "ba2155fc6bdcff81",
   "lastOpenFiles": []
 }
