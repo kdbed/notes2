@@ -1,3 +1,6 @@
 {
-  "accentColor": ""
+  "accentColor": "#3f14cc",
+  "cssTheme": "Obsidianite",
+  "interfaceFontFamily": "JuliaMono",
+  "translucency": true
 }

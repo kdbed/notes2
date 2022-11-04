@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "note from uh.md",
+                "file": "greenhouseemissions.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 263.5
   },
   "right": {
     "id": "e8660ae0ebcedc4e",
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "note from uh.md",
+                "file": "greenhouseemissions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "note from uh.md",
+                "file": "greenhouseemissions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,17 +125,45 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "note from uh.md"
+                "file": "greenhouseemissions.md"
               }
             }
+          },
+          {
+            "id": "73fa10dc53daadea",
+            "type": "leaf",
+            "state": {
+              "type": "RSS_FEED",
+              "state": {}
+            }
+          },
+          {
+            "id": "2a002db4b46f38c9",
+            "type": "leaf",
+            "state": {
+              "type": "code-execute-manage-executors",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 300,
+    "width": 200,
     "collapsed": true
   },
   "active": "ba2155fc6bdcff81",
-  "lastOpenFiles": []
+  "lastOpenFiles": [
+    "Fileless Malware.md",
+    "PowerShell - Script Encryption.md",
+    "Philosophy.md",
+    "Political Science.md",
+    "Politics.md",
+    "Trump - Policies and Actions.md",
+    "20221006200600-powershell.md",
+    "PowerShell - Classes.md",
+    "PowerShell - Clipboard to Array.md",
+    "Splunk - Account Lockout.md"
+  ]
 }
