@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "dnszonetransfers.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "dnszonetransfers.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "dnszonetransfers.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "dnszonetransfers.md"
               }
             }
           },
@@ -155,6 +155,7 @@
   },
   "active": "ba2155fc6bdcff81",
   "lastOpenFiles": [
+    "README.md",
     "Quotes.md",
     "Greenhouse Emissions.md",
     "Fileless Malware.md",
@@ -163,7 +164,6 @@
     "Political Science.md",
     "Politics.md",
     "Trump - Policies and Actions.md",
-    "20221006200600-powershell.md",
-    "PowerShell - Classes.md"
+    "20221006200600-powershell.md"
   ]
 }

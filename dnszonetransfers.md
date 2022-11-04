@@ -1,8 +1,4 @@
-+++
-title = "DNS Zone Transfers"
-author = ["svejk"]
-draft = false
-+++
+
 
 ## DNS Zone Transfers {#dns-zone-transfers}
 
