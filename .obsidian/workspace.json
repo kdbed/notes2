@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Greenhouse Emissions.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Greenhouse Emissions.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Greenhouse Emissions.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Greenhouse Emissions.md"
+                "file": "README.md"
               }
             }
           },
@@ -155,6 +155,8 @@
   },
   "active": "ba2155fc6bdcff81",
   "lastOpenFiles": [
+    "Quotes.md",
+    "Greenhouse Emissions.md",
     "Fileless Malware.md",
     "PowerShell - Script Encryption.md",
     "Philosophy.md",
@@ -162,8 +164,6 @@
     "Politics.md",
     "Trump - Policies and Actions.md",
     "20221006200600-powershell.md",
-    "PowerShell - Classes.md",
-    "PowerShell - Clipboard to Array.md",
-    "Splunk - Account Lockout.md"
+    "PowerShell - Classes.md"
   ]
 }
