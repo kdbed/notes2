@@ -1,39 +1,54 @@
 {
   "main": {
-    "id": "1f19cc158538517e",
+    "id": "29952f77a5084a02",
     "type": "split",
     "children": [
       {
-        "id": "9ec4dfc96672322c",
+        "id": "26bee647df41706e",
         "type": "tabs",
         "children": [
           {
-            "id": "ba2155fc6bdcff81",
+            "id": "b65bf2bb47b82122",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "dnszonetransfers.md",
+                "file": "Category Theory.md",
                 "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4280158656d432aa",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Intro to pwntools.md",
+                "mode": "source",
+                "backlinks": true,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "8c60fc40080b3089",
+    "id": "b4afe7c2ed38fc58",
     "type": "split",
     "children": [
       {
-        "id": "296a3fb1a041739a",
+        "id": "c0b3bf7f1c9eb3bc",
         "type": "tabs",
         "children": [
           {
-            "id": "bffbea4421604386",
+            "id": "e17afe298c293d17",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -43,7 +58,7 @@
             }
           },
           {
-            "id": "de4635f46090eab9",
+            "id": "8ed1fe3d6a869a41",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -58,7 +73,7 @@
             }
           },
           {
-            "id": "14455131d572e991",
+            "id": "55934ead6583d710",
             "type": "leaf",
             "state": {
               "type": "starred",
@@ -69,23 +84,23 @@
       }
     ],
     "direction": "horizontal",
-    "width": 263.5
+    "width": 300
   },
   "right": {
-    "id": "e8660ae0ebcedc4e",
+    "id": "67101812adc17c5c",
     "type": "split",
     "children": [
       {
-        "id": "8a3852f24d07b3e9",
+        "id": "63ceea12f1087fe0",
         "type": "tabs",
         "children": [
           {
-            "id": "d1977a4bb42990bf",
+            "id": "55023c3231071014",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "dnszonetransfers.md",
+                "file": "Intro to pwntools.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,19 +112,19 @@
             }
           },
           {
-            "id": "ec2327d391a7081f",
+            "id": "435b6b49e72bf5d1",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "dnszonetransfers.md",
+                "file": "Intro to pwntools.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "992226c56088000d",
+            "id": "1ae0ae28cb7b175e",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -120,50 +135,41 @@
             }
           },
           {
-            "id": "a9b8515c0a849318",
+            "id": "f5dcb709296513a9",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "dnszonetransfers.md"
+                "file": "Intro to pwntools.md"
               }
             }
           },
           {
-            "id": "73fa10dc53daadea",
+            "id": "55d9b5bc1d0933af",
             "type": "leaf",
             "state": {
               "type": "RSS_FEED",
               "state": {}
             }
-          },
-          {
-            "id": "2a002db4b46f38c9",
-            "type": "leaf",
-            "state": {
-              "type": "code-execute-manage-executors",
-              "state": {}
-            }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 200,
+    "width": 300,
     "collapsed": true
   },
-  "active": "ba2155fc6bdcff81",
+  "active": "4280158656d432aa",
   "lastOpenFiles": [
-    "README.md",
-    "Quotes.md",
-    "Greenhouse Emissions.md",
-    "Fileless Malware.md",
-    "PowerShell - Script Encryption.md",
-    "Philosophy.md",
-    "Political Science.md",
-    "Politics.md",
-    "Trump - Policies and Actions.md",
-    "20221006200600-powershell.md"
+    "Category Theory.md",
+    "Mathematics.md",
+    "Impacket.md",
+    "IdentityIQEssentialsIntroduction.md",
+    "Zettelkasten.md",
+    "test file.md",
+    "todo.md",
+    "Understand by Explaining.md",
+    "Roe V Wade.md",
+    "Splunk.md"
   ]
 }

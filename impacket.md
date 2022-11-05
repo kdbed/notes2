@@ -1,5 +1,9 @@
-+++
-title = "Impacket"
-author = ["svejk"]
-draft = false
-+++
+---
+title: Impacket
+tags:
+  - pentest
+  - infosec
+---
+
+
+

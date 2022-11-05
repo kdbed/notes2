@@ -1,14 +1,19 @@
-+++
-title = "AS-REP Roasting"
-author = ["svejk"]
-draft = false
-+++
+---
+title: AS-REP Roasting
+tags:
+  - kerberos
+  - infosec
+  - pentest
+---
 
-## AS-REP Roasting {#as-rep-roasting}
 
-Two key attacks on [Kerberos]({{<relref "kerberos.md#" >}}) security in Active Directory include [kerberoasting]({{<relref "kerberoasting.md#" >}}) and AS-REP Roasting. Kerberoasting typically requires credentials on the domain to authenticate with. There is an option for an account to have the property “Do not require Kerberos preauthentication” or UF\_DONT\_REQUIRE\_PREAUTH set to true. AS-REP Roasting is an attack against Kerberos for these accounts.
 
-Use the [Impacket]({{<relref "impacket.md#" >}}) tool `GetNPUsers.py` to try to get a hash for each user
+
+## AS-REP Roasting 
+
+Two key attacks on [[Kerberos]] security in Active Directory include [[Kerberoasting]] and AS-REP Roasting. Kerberoasting typically requires credentials on the domain to authenticate with. There is an option for an account to have the property “Do not require Kerberos preauthentication” or UF\_DONT\_REQUIRE\_PREAUTH set to true. AS-REP Roasting is an attack against Kerberos for these accounts.
+
+Use the [[Impacket]] tool `GetNPUsers.py` to try to get a hash for each user
 
 ```shell
 λ ~/ctf/htb/forest/ for user in $(cat usernames.txt); do GetNPUsers.py -no-pass -dc-ip 10.10.10.161 htb/${user} | grep -v Impacket; done

@@ -9,4 +9,4 @@ If you are in a room full of 23 people, you have a 1 in 365 chance of sharing a 
 The birthday attack is used to create hash collisions. Just as matching your birthday is difficult, finding a specific input with a hash that collides with another input is difficult. However, just like matching any birthday is easier, finding any input that creates a colliding hash with any other input is easier due to the birthday attack.
 
 
-[[securityplus]]
+[[Security+]]

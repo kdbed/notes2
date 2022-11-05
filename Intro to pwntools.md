@@ -1,26 +1,32 @@
-+++
-title = "Intro to Pwntools - TryHackMe"
-author = ["svejk"]
-draft = false
-+++
+---
+title: Intro to pwntools
+tags:
+  - binaryAnalysis
+  - infosec
+  - pentest
+  - tryHackMe
+---
 
-Basics of [Binary Analysis]({{<relref "binary_analysis.md#" >}})
 
 
-## Intro to Pwntools {#intro-to-pwntools}
+
+Basics of [[binary_analysis]]
+
+## Intro to Pwntools
 
 Source materials here [dizmascyberlabs
 ](https://github.com/dizmascyberlabs/IntroToPwntools)
 [Install gdb-pwndbg-peda-gef](https://github.com/apogiatzis/gdb-peda-pwndbg-gef)
 
 
-### Checksec {#checksec}
+### Checksec
 
 Same source code, compiled with different protections in place:
 
-{{< highlight sh "linenos=table, linenostart=1" >}}
+```bash
 checksec checksec/intro2pwn2
-{{< /highlight >}}
+```
+
 
 ```text
 [*] '/home/kdb/Downloads/IntroToPwntools/IntroToPwntools/checksec/intro2pwn2'
@@ -32,9 +38,11 @@ checksec checksec/intro2pwn2
     RWX:      Has RWX segments
 ```
 
-{{< highlight sh "linenos=table, linenostart=1" >}}
+
+```
 checksec checksec/intro2pwn1
-{{< /highlight >}}
+```
+
 
 ```text
 [*] '/home/kdb/Downloads/IntroToPwntools/IntroToPwntools/checksec/intro2pwn1'
@@ -53,21 +61,21 @@ checksec checksec/intro2pwn1
 Resource for properties involved in `checksec` : [siphos](https://blog.siphos.be/2011/07/high-level-explanation-on-some-binary-executable-security/)
 
 
-### Cyclic {#cyclic}
+### Cyclic
 
 If we look at the files and permissions in the cyclic directory:
 
-{{< figure src="/images/cyclic1.jpg" >}}
+![Image](cyclic1.jpg)
 
 You will see that the flag file and intro2pwn3 are owned by the same user, and that the suid bit is set for intro2pwn3. This means that the program will keep its permissions when it executes.
 
 Taking a look at the c code:
 
-{{< highlight sh "linenos=table, linenostart=1" >}}
+```
 cat cyclic/test_cyclic.c
-{{< /highlight >}}
+```
 
-```text
+```c
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>
@@ -97,19 +105,21 @@ int main(){
 We see that although we (buzz) can run this program, the `print_flag()` function isn't executed. This program is vulnerable to a buffer overflow, because it uses the gets() function, which does not check to see if the user input is actually in bounds. In our case, the name variable has 24 bytes allocated, so if we input more than 24 bytes, we can write to other parts of memory. An important part of the memory we can overwrite is the instruction pointer (IP), which is called the eip on 32-bit machines, and rip on 64-bit machines. The IP points to the next instruction to be executed, so if we redirect the eip in our binary to the `print_flag()` function, we can print the flag.
 
 
-#### Cyclic {#cyclic}
+#### Cyclic 
 
 To control the IP, the first thing we need do is to is overflow the stack with a pattern, so we can see where the IP is.  A file `alphabet` is provided; start gdb with `gdb intro2pwn3` and run with the alphabet file `r < alphabet`:
 
-{{< figure src="/images/over1.jpg" >}}
+![Image](over1.jpg)
 
-We've caused a segmentation fault, and you may observe that there is an invalid address at 0x4a4a4a4a. If you scroll up, you can see the values at each register. For eip, it has been overwritten with 0x4a4a4a4a.
+We've caused a segmentation fault, and you may observe that there is an invalid address at _0x4a4a4a4a_. If you scroll up, you can see the values at each register. For eip, it has been overwritten with _0x4a4a4a4a_.
 
 The alphabet file can be produced with `cyclic 100`.
 
-{{< highlight sh "linenos=table, linenostart=1" >}}
+```
 cyclic 100
-{{< /highlight >}}
+```
+
+
 
 ```text
 aaaabaaacaaadaaaeaaafaaagaaahaaaiaaajaaakaaalaaamaaanaaaoaaapaaaqaaaraaasaaataaauaaavaaawaaaxaaayaaa

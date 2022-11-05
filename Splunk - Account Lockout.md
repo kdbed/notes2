@@ -1,6 +1,6 @@
 
 
-Monitoring [[Active Directory]] account lockouts with [[splunk]]
+Monitoring [[Active Directory]] account lockouts with [[Splunk]]
 
 ```text
 index=wineventlog Account_Name=<<accountNameHere>>>

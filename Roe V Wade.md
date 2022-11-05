@@ -1,16 +1,19 @@
-+++
-title = "Abortion and the Supreme Court: Roe V Wade, Dobbs V Jackson, etc"
-author = ["svejk"]
-draft = false
-+++
-
-## [Abortion]({{<relref "abortion.md#" >}}) and the Supreme Court {#abortion--abortion-dot-md--and-the-supreme-court}
+---
+title: Roe V Wade
+tags:
+  - politics
+---
 
 
-### Roe V Wade {#roe-v-wade}
 
 
-#### Basic Conclusions - Roe {#basic-conclusions-roe}
+## [[Abortion]] and the Supreme Court
+
+
+### Roe V Wade
+
+
+#### Basic Conclusions - Roe 
 
 Drawing on the First, Fourth, Ninth, and Fourteenth Amendments, the Court said that the Constitution protects an individual’s “zones of privacy.” Citing earlier cases that ruled that contraception, marriage, and child rearing were activities included in these “zones of privacy,” the Court found that the zone was “broad enough to encompass a woman’s decision whether or not to terminate her pregnancy.”
 
@@ -19,24 +22,24 @@ Because the Court determined that abortions were within a woman’s “zone of p
 The Court said that as a fundamental right, any limitations on abortion must meet the standards of strict scrutiny. This meant that there must have been “compelling state interest” in regulating abortions, and the legislation must have been narrowly tailored to meet this “compelling” state interest. [Constitution Center](https://constitutioncenter.org/interactive-constitution/blog/landmark-cases-roe-v-wade)
 
 
-### Dobbs V Jackson Women's Health Center {#dobbs-v-jackson-women-s-health-center}
+### Dobbs V Jackson Women's Health Center
 
 
-#### Decision {#decision}
+#### Decision
 
 According to Alito, if a right isn’t explicitly mentioned in the Constitution, it must be “‘deeply rooted in this Nation’s history and tradition’ and ‘implicit in the concept of ordered liberty’” to qualify for constitutional protection. He then spends many pages of his opinion arguing that the right to an abortion is not rooted in legal history or tradition. [Vox](https://www.vox.com/2022/6/24/23181720/supreme-court-dobbs-jackson-womens-health-samuel-alito-roe-wade-abortion-marriage-contraception)
 
 
-#### Objections to the historical aspect of Alito's argument {#objections-to-the-historical-aspect-of-alito-s-argument}
+#### Objections to the historical aspect of Alito's argument
 
 [Politico](https://www.politico.com/news/magazine/2022/06/02/alitos-anti-roe-argument-wrong-00036174)
 [The Conversation](https://theconversation.com/abortion-decision-cherry-picks-history-when-the-us-constitution-was-ratified-women-had-much-more-autonomy-over-abortion-decisions-than-during-19th-century-185947)
 
 
-### Arguments {#arguments}
+### Arguments
 
 
-#### Dobbs is a religious decision {#dobbs-is-a-religious-decision}
+#### Dobbs is a religious decision 
 
 But the other day, going over my charts before filing them away to prepare for the next term, a realization struck me. I had put Dobbs in the wrong place. Along with the decision about the praying football coach and the one requiring Maine to subsidize parochial school tuition, Dobbs belongs under “religion.”
 
@@ -53,7 +56,7 @@ Justice Alito took pains to present the majority’s conclusion as the product o
 -   Linda Greenhouse, [The New York Times](https://www.nytimes.com/2022/07/22/opinion/abortion-religion-supreme-court.html), "Religious Doctrine, Not the Constitution, Drove the Dobbs Decision"
 
 
-#### No Consideration for Consequences {#no-consideration-for-consequences}
+#### No Consideration for Consequences 
 
 When Alito’s draft surfaced, Foster told me, “I was struck by how little it considered the people who would be affected. The experience of someone who’s pregnant when they do not want to be and what happens to their life is absolutely not considered in that document.”
 

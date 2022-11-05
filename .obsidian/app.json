@@ -1,5 +1,8 @@
 {
   "alwaysUpdateLinks": true,
   "vimMode": true,
-  "promptDelete": false
+  "promptDelete": false,
+  "showFrontmatter": true,
+  "useMarkdownLinks": false,
+  "rightToLeft": false
 }

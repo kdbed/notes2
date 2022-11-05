@@ -1,18 +1,18 @@
 
 
-## DNS Zone Transfers {#dns-zone-transfers}
+## DNS Zone Transfers
 
 DNS zone transfers using the AXFR protocol are the simplest mechanism to replicate DNS records across DNS servers. To avoid the need to edit information on multiple DNS servers, you can edit information on one server and use AXFR to copy information to other servers. However, if you do not protect your servers, malicious parties may use AXFR to get information about all your hosts.
 
 
-### How DNS Works {#how-dns-works}
+### How DNS Works
 
 DNS (Domain Name System) is like an Internet phonebook. It is responsible for resolving human-readable hostnames into machine-readable IP addresses. The system includes authoritative DNS servers that provide information and DNS caches that store that information temporarily for client lookups. A typical DNS query is very simple: a client provides a human-readable hostname and in response receives an IP address. However, the system assumes that the querying client knows the hostname.
 
 DNS servers host zones. A DNS zone is a portion of the domain name space that is served by a DNS server. For example, example.com with all its subdomains may be a zone. However, second.example.com may also be a separate zone.
 
 
-### Why DNS Zone Transfer is Needed {#why-dns-zone-transfer-is-needed}
+### Why DNS Zone Transfer is Needed
 
 DNS is a critical service. If a DNS server for a zone is not working and cached information has expired, the domain is inaccessible to all services (web, mail, and more). Therefore, each zone should have at least two DNS servers. For more critical zones, there may be even more.
 
@@ -21,7 +21,7 @@ However, a zone may be large and may require frequent changes. If you manually e
 You can use different mechanisms for DNS zone transfer but the simplest one is AXFR (technically speaking, AXFR refers to the protocol used during a DNS zone transfer). It is a client-initiated request. Therefore, you can edit information on the primary DNS server and then use AXFR from the secondary DNS server to download the entire zone.
 
 
-### How to Initiate a DNS Zone Transfer {#how-to-initiate-a-dns-zone-transfer}
+### How to Initiate a DNS Zone Transfer
 
 Initiating an AXFR zone-transfer request from a secondary server is as simple as using the following dig commands, where zonetransfer.me is the domain that we want to initiate a zone transfer for. First, we need to get the list of DNS servers for the domain:
 
@@ -95,7 +95,7 @@ zonetransfer.me.	7200	IN	SOA	nsztm1.digi.ninja. robin.digi.ninja. 2019100801 172
 ```
 
 
-### AXFR Vulnerability and Prevention {#axfr-vulnerability-and-prevention}
+### AXFR Vulnerability and Prevention
 
 AXFR offers no authentication, so any client can ask a DNS server for a copy of the entire zone. This means that unless some kind of protection is introduced, an attacker can get a list of all hosts for a domain, which gives them a lot of potential attack vectors.
 
@@ -117,6 +117,6 @@ zone zonetransfer.me {
 Additionally, it’s also recommended to use transaction signatures (TSIG) for zone transfers to prevent IP spoofing attempts.
 
 
-## [ComptTIA Security+]({{<relref "securityplus.md#" >}}) {#compttia-security-plus--securityplus-dot-md}
+## [[Security+]]
 
 -   [Acunetix](https://www.acunetix.com/blog/articles/dns-zone-transfers-axfr/)

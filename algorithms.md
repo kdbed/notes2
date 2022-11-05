@@ -1,5 +1,8 @@
-+++
-title = "Algorithms"
-author = ["svejk"]
-draft = false
-+++
+---
+title: Algorithms
+---
+
+[[[Computer Science]]
+
+
+Algos

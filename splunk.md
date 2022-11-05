@@ -1,5 +1,7 @@
-+++
-title = "Splunk"
-author = ["svejk"]
-draft = false
-+++
+---
+title: Splunk
+tags:
+  - SIEM
+---
+
+

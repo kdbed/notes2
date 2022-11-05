@@ -53,7 +53,7 @@ int main() {
 
 We can either install a C++ compiler by running nix-env with the appropriate arguments, or just run a shell that exposes a C++ compiler in its PATH environment. Let us not clutter the system’s PATH environment with compilers from the beginning, because often people would use different compilers for each project anyway.
 
-![[nixShell.jpg]]
+![Image](nixShell.jpg)
 
 
 ### Path
