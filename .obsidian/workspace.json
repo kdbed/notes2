@@ -24,8 +24,13 @@
             "id": "4280158656d432aa",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "s_mime.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
             }
           }
         ],
@@ -95,6 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "s_mime.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,6 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "s_mime.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -132,7 +139,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "s_mime.md"
+              }
             }
           },
           {
@@ -150,8 +159,9 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "e17afe298c293d17",
+  "active": "4280158656d432aa",
   "lastOpenFiles": [
+    "scapy_scanning.md",
     "Intro to pwntools.md",
     "Category Theory.md",
     "Mathematics.md",
@@ -160,7 +170,6 @@
     "Zettelkasten.md",
     "test file.md",
     "todo.md",
-    "Understand by Explaining.md",
-    "Roe V Wade.md"
+    "Understand by Explaining.md"
   ]
 }
