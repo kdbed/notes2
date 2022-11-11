@@ -1,5 +1,7 @@
-+++
-title = "Nietzsche"
-author = ["svejk"]
-draft = false
-+++
+---
+title: Nietzsche
+tags:
+  - philosophy
+---
+
+

@@ -1,7 +1,7 @@
 
 
 
-### Quote 1 - [[marx]]
+### Quote 1 - [[Marx]]
 
 	You would be wrong if you thought that I love books. I am a machine condemned to devour them in order to vomit them up in a new form, like manure on the soil of history.
 

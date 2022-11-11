@@ -1,5 +1,7 @@
-+++
-title = "wfuzz"
-author = ["svejk"]
-draft = false
-+++
+
+---
+title: Wfuzz
+tags:
+  - infosec
+  - pentest
+---

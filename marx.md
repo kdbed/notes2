@@ -1,5 +1,8 @@
-+++
-title = "Marx"
-author = ["svejk"]
-draft = false
-+++
+---
+title: Marx
+tags:
+  - socialism
+---
+
+
+

@@ -1,7 +1,10 @@
-+++
-title = "RELRO"
-author = ["svejk"]
-draft = false
-+++
+---
+title: RELRO
+tags:
+  - binaryAnalysis
+  - infosec
+---
 
-<https://www.redhat.com/en/blog/hardening-elf-binaries-using-relocation-read-only-relro>
+
+
+[Redhat](https://www.redhat.com/en/blog/hardening-elf-binaries-using-relocation-read-only-relro) 

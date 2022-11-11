@@ -4,37 +4,23 @@
     "type": "split",
     "children": [
       {
-        "id": "26bee647df41706e",
+        "id": "1d3c68dac643a8b3",
         "type": "tabs",
         "children": [
           {
-            "id": "b65bf2bb47b82122",
+            "id": "084f78120da23a88",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Category Theory.md",
+                "file": "Z3 Theorem Prover - Basics.md",
                 "mode": "source",
                 "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4280158656d432aa",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "s_mime.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
+                "source": true
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -100,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "s_mime.md",
+                "file": "XOR.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "s_mime.md",
+                "file": "XOR.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "s_mime.md"
+                "file": "XOR.md"
               }
             }
           },
@@ -148,28 +134,41 @@
             "id": "55d9b5bc1d0933af",
             "type": "leaf",
             "state": {
-              "type": "RSS_FEED",
+              "type": "markdown",
+              "state": {
+                "file": "XOR.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "239ab4b76778379e",
+            "type": "leaf",
+            "state": {
+              "type": "code-execute-manage-executors",
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
-  "active": "4280158656d432aa",
+  "active": "239ab4b76778379e",
   "lastOpenFiles": [
-    "scapy_scanning.md",
-    "Intro to pwntools.md",
-    "Category Theory.md",
-    "Mathematics.md",
-    "Impacket.md",
-    "IdentityIQEssentialsIntroduction.md",
-    "Zettelkasten.md",
-    "test file.md",
-    "todo.md",
-    "Understand by Explaining.md"
+    "Z3 Theorem Prover - Basics.md",
+    "XOR.md",
+    "Subdomain Enumeration.md",
+    "Wfuzz.md",
+    "Stack Canaries.md",
+    "SHA-1.md",
+    "SMIME.md",
+    "RELRO.md",
+    "PIE.md",
+    "orgPythonJupyter.md"
   ]
 }

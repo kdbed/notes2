@@ -1,13 +1,19 @@
-+++
-title = "Nietzsche and Stoicism"
-author = ["svejk"]
-draft = false
-+++
+---
+title: Nietzsche and Stoicism
+tags:
+  - nietsche
+  - stoicism
+  - philosophy
+---
 
-## Nietzsche and Stoicism {#nietzsche-and-stoicism}
 
 
-### Resolution of contradictions {#resolution-of-contradictions}
+
+
+## Nietzsche and Stoicism
+
+
+### Resolution of contradictions 
 
 After describing the Stoics’ essential psychological characteristics, Nietzsche advances two obscure but critical remarks. First, he questions whether the Stoics’ attainment of their ethical ideal is significant on the grounds that the decision to adopt Stoic therapy is determined in advance by one’s character. Second, he rebukes the Stoics for underestimating the worth of pain and passion, and for the fatalistic acceptance of life that their therapy produces. Confusingly, however, Nietzsche elsewhere celebrates characteristics for which Stoicism is well known; for instance, self-sufficiency and its associated characteristics, such as hardness, independence, and self-mastery. Moreover, the Stoic’s fatalistic declaration, ‘I want nothing different!’, seems to express precisely the love of fate, or amor fati, that Nietzsche himself embraces.
 

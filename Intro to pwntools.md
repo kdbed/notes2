@@ -10,7 +10,7 @@ tags:
 
 
 
-Basics of [[binary_analysis]]
+Basics of [[Binary Analysis]]
 
 ## Intro to Pwntools
 

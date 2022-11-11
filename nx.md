@@ -1,7 +1,10 @@
-+++
-title = "NX"
-author = ["svejk"]
-draft = false
-+++
+---
+title: NX
+tags:
+  - binaryAnalysis
+  - infosec
+---
 
-[Binary Analysis]({{<relref "binary_analysis.md#" >}})
+
+[[Binary Analysis]]
+

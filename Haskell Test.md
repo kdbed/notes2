@@ -1,10 +1,14 @@
-+++
-title = "Haskell - Org Test"
-author = ["svejk"]
-draft = false
-+++
+---
+title: Haskell - Org Test
+tags:
+  - haskell
+  - org
+---
 
-## Map {#map}
+
+
+
+## Map
 
 ```haskell
 import Control.Monad

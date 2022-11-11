@@ -1,17 +1,21 @@
-+++
-title = "Subdomain Enumeration"
-author = ["svejk"]
-draft = false
-+++
+---
+title: Subdomain Enumeration
+tags:
+  - infosec
+  - pentest
+---
 
-## From DNS {#from-dns}
+
+
+
+## From DNS
 
 ```shell
 dig +nocmd trick.htb axfr +noall +answer @trick.htb
 ```
 
 
-## WFuzz {#wfuzz}
+## [[Wfuzz]]
 
 In case the subdomain has a certain naming convention (Trick/HTB):
 

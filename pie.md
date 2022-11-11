@@ -1,7 +1,8 @@
-+++
-title = "PIE"
-author = ["svejk"]
-draft = false
-+++
+---
+title: PIE
+tags:
+  - binaryAnalysis
+  - infosec
+---
 
-[Binary Analysis]({{<relref "binary_analysis.md#" >}})
+[[Binary Analysis]]

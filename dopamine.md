@@ -1,5 +1,8 @@
-+++
-title = "Dopamine"
-author = ["svejk"]
-draft = false
-+++
+---
+title: Dopamine
+tags:
+  - happiness
+  - biology
+---
+
+
