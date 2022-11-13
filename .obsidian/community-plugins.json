@@ -8,5 +8,6 @@
   "obsidian-latex",
   "execute-code",
   "chesser-obsidian",
-  "literate-haskell"
+  "literate-haskell",
+  "obsidian-git"
 ]
